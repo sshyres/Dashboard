@@ -1,7 +1,10 @@
-body {
- background-image: url("../students.jpeg");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');body {
+ background-image: url("../background.jpeg");
  background-color: #cccccc;
- background-size: 2500px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+
   
 }
 .clr{
@@ -22,20 +25,21 @@ body {
 	background-color: white;
 	box-sizing: border-box;
 	margin-bottom: 50px;
-	height: 100px;
+	height: 125px;
+	margin-top: 0px;
+
 }
-.top-bar dash{
-	margin-left:  50px;
-}
+
 .top-bar h1{
 	font-family: Poppins, Roboto;
-	font-family: Helvetica;
+	
 
 	
 }
 
 .top-bar h3{
-	font-family: Helvetica;
+	font-family: Poppins, Roboto;
+	letter-spacing: 3px;
 }
 .categories{
 	margin-left: 50px;
@@ -49,8 +53,8 @@ body {
 	box-sizing: border-box;
 	border-radius: 10px;
 	padding-left: 20px;
-	height: 800px;
-	font-family: Helvetica;
+	height: min-content;
+	font-family: Poppins, Roboto;
 
 
 	
@@ -61,10 +65,19 @@ body {
 }
 .box-1{
 	flex: 2;
+	white-space:  nowrap;
+	display: inline-block;
 }
 
-.box-2{
+.address{
 	flex: 1;
+	display: inline-block;
+}
+.state{
+	display: inline-block;
+}
+.state h3{
+	font-weight: lighter;
 }
 #scholarship {
 	float: right;
@@ -74,7 +87,7 @@ body {
 	border-radius: 10px;
 	height: 1000px;
 	text-align: center;
-	font-family: Helvetica;
+	font-family: Poppins, Roboto;
 }
 #scholarship h2{
 	padding-left: 10px;
@@ -92,11 +105,12 @@ body {
 	height: 300px;
 	border-sizing: border-box;
 	padding-left: 20px;
-	font-family: Helvetica;
+	font-family: Poppins, Roboto;
 
 }
 .categories{
 	box-sizing: border-box;
+	
 
 }
 
@@ -107,5 +121,18 @@ body {
  	margin-top: 35px;
  	margin-bottom: 15px;
  }
+
+ .categories h3{
+ 	font-weight:500;
+ }
+
+
+
+
+
+
+
+
+
 
 
