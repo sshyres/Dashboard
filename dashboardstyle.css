@@ -1,15 +1,111 @@
+body {
+ background-image: url("../students.jpeg");
+ background-color: #cccccc;
+ background-size: 2500px;
+  
+}
+.clr{
+	clear: both;
+}
+
+.row{
+	white-space: nowrap;
+}
+
+.row > div{
+	width: 300px;
+	display: inline-block;
+}
 .top-bar{
 	float: left;
 	width: 25%;
-	
-
+	background-color: white;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+	height: 100px;
 }
-
+.top-bar dash{
+	margin-left:  50px;
+}
 .top-bar h1{
-	font-family: 'Poppins', 'Roboto';
+	font-family: Poppins, Roboto;
+	font-family: Helvetica;
+
 	
 }
 
-.uppertop-bar h3{
+.top-bar h3{
+	font-family: Helvetica;
+}
+.categories{
+	margin-left: 50px;
+
+
+}
+#housing{
+	float: left;
+	width:77%;
+	background-color: white;
+	box-sizing: border-box;
+	border-radius: 10px;
+	padding-left: 20px;
+	height: 800px;
+	font-family: Helvetica;
+
+
 	
 }
+
+.head{
+	background-color: white;
+}
+.box-1{
+	flex: 2;
+}
+
+.box-2{
+	flex: 1;
+}
+#scholarship {
+	float: right;
+	width: 20%;
+	background-color:white;
+	box-sizing: border-box;
+	border-radius: 10px;
+	height: 1000px;
+	text-align: center;
+	font-family: Helvetica;
+}
+#scholarship h2{
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 20px;
+	font-weight: lighter;
+	font-family: Helvetica;
+}
+
+#fafsa{
+	float: left;
+	width: 77%;
+	background-color: white;
+	border-radius: 10px;
+	height: 300px;
+	border-sizing: border-box;
+	padding-left: 20px;
+	font-family: Helvetica;
+
+}
+.categories{
+	box-sizing: border-box;
+
+}
+
+
+ .categories h5{
+ 	font-weight: lighter;
+ 	font-size: 17px;
+ 	margin-top: 35px;
+ 	margin-bottom: 15px;
+ }
+
+
